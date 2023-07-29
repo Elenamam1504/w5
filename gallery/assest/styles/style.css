@@ -1,0 +1,55 @@
+body {
+
+  background-image: linear-gradient(rgb(205, 231, 233), hsl(318, 92%, 48%));
+}
+
+.flex-container {
+    display: flex;
+    justify-content:center;
+    color: hsl(330, 89%, 50%);
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row; 
+  justify-content:space-around;
+  list-style-type: none;
+}
+
+a:hover {
+  font-size: 20px; 
+  color:black; 
+  text-decoration: underline;
+}
+
+.menu {
+    
+    color: hsl(330, 89%, 50%);
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none; 
+}
+    
+
+main {
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+  overflow: hidden;
+ 
+}
+
+img {
+  transition: transform 0.25s;
+  width: 300px;
+  height: 180px;
+  }
+
+.images:hover img {
+    transform: scale(1.1);}

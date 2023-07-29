@@ -1,0 +1,81 @@
+header {
+    display: flex;
+    justify-content:center;
+}
+
+.basic {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    height: 70vh;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    
+}
+
+
+.more {
+    display: flex;
+    flex-direction: row;
+    background-color:yellow;
+    width: 50%;
+    height: 15%;}
+
+.more1 {
+    display: flex;
+    background-color:yellow;
+    width: 100%;
+    height: 15%;
+    }
+
+    
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    background-color: lightgray;
+    
+}
+.content {
+    flex: 1;
+    background-color: lightyellow;
+    
+}
+aside {
+    width: 30vw;
+    height: 70vh;
+    background-color: lightgreen;
+    float: right;
+} 
+    
+footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 20vh;
+    
+}
+.section {
+    background-color: white;
+    height: 70px;
+    width: 150px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
